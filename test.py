@@ -8,10 +8,10 @@ Created on Sun Dec 17 10:28:28 2017
 import fraction as f
 
 f1 = f.Fraction(2,4)
-f1.printFraction
+f1.printFraction()
 
 f2 = f.Fraction(-4,5)
-f1.printFraction
+f1.printFraction()
 
 print('suma: ',f1 + f2)
 print('roznica: ',f1 - f2)
